@@ -1,0 +1,16 @@
+.nav-link{
+    color: black;
+   transition-property: all;
+  }
+  .nav-link:hover{
+    transform: scale(1.1);
+     transition: ease-in-out;
+     background-color: rgb(169, 230, 167);
+     
+  } 
+  .container-fluid {
+    font-family: 'Charm';font-size: 22px;
+  }
+  body {
+    font-family: 'Charm';font-size: 22px;
+}

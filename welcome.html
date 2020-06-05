@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <script src="app.js"></script>
+    <link rel="stylesheet" href="welcome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+<style>
+body {
+  font-family: 'Charm';font-size: 22px;
+   
+   }
+ 
+</style>
+<a name="top"></a>
+</head>
+<body>
+
+  <div class="container-fluid bg-primary">
+
+    <nav class="navbar navbar-fixed-top navbar-expand-sm  navbar-dark justify-content-end">
+        <a class="navbar-brand" href="">AL Haaj Bundookhan</a>
+        <button class="btn btn-link ml-auto mr-1"></button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav text-right">
+              <li class="nav-item active">
+                <a class="nav-link " href="index.html">Main</a>
+            </li>
+                <li class="nav-item active">
+                    <a class="nav-link " href="welcome.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Order.html">Order Now</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="container d-flex flex-wrap justify-content-between justify-content-around">
+
+<div class="cont">
+  <img src="chicken kerhai.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><a href=order.html><button type="button" class="btn btn-primary">Order Now</button> </a><p>1,500/kg </p></div>
+  </div>
+  
+</div>
+
+<div class="cont">
+<img src="chicken kerhai.jpg" alt="Avatar" class="image">
+<div class="overlay">
+  <div class="text"><a href=order.html><button type="button" class="btn btn-primary">Order Now</button> </a><p>1,500/kg </p></div>
+  </div>
+</div>
+
+<div class="cont">
+<img src="chicken kerhai.jpg" alt="Avatar" class="image">
+<div class="overlay">
+  <div class="text"><a href=order.html><button type="button" class="btn btn-primary">Order Now</button></a><p>1,500/kg </p></div>
+</div>
+
+</div>
+
+</div>
+<h2>Food Items</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> chicken</button>
+  <button class="btn" onclick="filterSelection('cars')"> Mutton</button>
+  <button class="btn" onclick="filterSelection('people')"> Beef</button>
+</div>
+
+
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="mutton kerhai.png" alt="Mountains" style="width:50%">
+      <h4>chicken</h4>
+    
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="chicken kerhai.jpg" alt="Lights" style="width:50%">
+      <h4>chickentikka</h4>
+    
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="chickentikka.jpg" alt="Nature" style="width:50%">
+      <h4>chickentikka</h4>
+     
+    </div>
+  </div>
+
+  <div class="column cars">
+    <div class="content">
+      <img src="chickentikka.jpg" alt="Car" style="width:50%">
+      <h4>Mutton</h4>
+      
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="chickentikka.jpg" alt="Car" style="width:50%">
+      <h4>Mutton</h4>
+     
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="chickentikka.jpg" alt="Car" style="width:50%">
+      <h4>Mutton</h4>
+     
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="chickentikka.jpg" alt="People" style="width:100%">
+      <h4>Beef</h4>
+      
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="chickentikka.jpg" alt="People" style="width:100%">
+      <h4>Beef</h4>
+   
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="chickentikka.jpg" alt="People" style="width:100%">
+      <h4>Beef</h4>
+  
+    </div>
+  </div>
+
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
